@@ -1,6 +1,6 @@
 # closest-number
 
-[![Build Status](https://travis-ci.org/andreruffert/closest-number.svg?branch=master)](https://travis-ci.org/andreruffert/closest-number)
+[![Build Status](https://travis-ci.org/andreruffert/closest-number.svg?branch=master)](https://travis-ci.org/andreruffert/closest-number) [![npm version](https://img.shields.io/npm/v/closest-number.svg)](https://www.npmjs.com/package/closest-number)
 
 > Find the closest number out of an array to a specific value
 
