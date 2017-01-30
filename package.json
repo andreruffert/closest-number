@@ -1,6 +1,6 @@
 {
   "name": "closest-number",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Find the closest number out of an array to a specific value",
   "main": "index.js",
   "files": [
