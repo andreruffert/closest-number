@@ -29,6 +29,6 @@
   "homepage": "https://github.com/andreruffert/closest-number#readme",
   "devDependencies": {
     "ava": "^3.5.1",
-    "xo": "^0.28.1"
+    "xo": "^0.29.0"
   }
 }
