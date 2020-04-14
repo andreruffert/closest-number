@@ -1,6 +1,6 @@
 {
   "name": "closest-number",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Find the closest number out of an array to a specific value",
   "author": "André Ruffert (andreruffert.com)",
   "license": "MIT",
