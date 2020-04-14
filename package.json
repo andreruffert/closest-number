@@ -2,33 +2,31 @@
   "name": "closest-number",
   "version": "1.0.2",
   "description": "Find the closest number out of an array to a specific value",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "xo": {
-    "space": true
-  },
+  "author": "André Ruffert (andreruffert.com)",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/andreruffert/closest-number.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "ava": {
+    "require": [
+      "esm"
+    ]
   },
   "keywords": [
     "array",
     "closest",
     "number"
   ],
-  "author": "André Ruffert (andreruffert.com)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/andreruffert/closest-number/issues"
-  },
-  "homepage": "https://github.com/andreruffert/closest-number#readme",
   "devDependencies": {
     "ava": "^3.5.1",
-    "xo": "^0.29.0"
+    "esm": "^3.2.25"
   }
 }

@@ -1,5 +1,5 @@
 import test from 'ava';
-import closestNumber from './';
+import closestNumber from '.';
 
 test('basic numbers', t => {
   const numbers = [10, 20, 30];
@@ -10,7 +10,7 @@ test('basic numbers', t => {
 });
 
 test('floating point numbers', t => {
-  const numbers = [10.1, 10.5, 10.4, 8.20, 9.23, 10];
+  const numbers = [10.1, 10.5, 10.4, 8.2, 9.23, 10];
   const result = closestNumber(numbers, 10.2);
   const expected = 10.1;
 
@@ -24,4 +24,3 @@ test('negative numbers', t => {
 
   t.is(result, expected, `Expected "${result}" to be equal to "${expected}"`);
 });
-
