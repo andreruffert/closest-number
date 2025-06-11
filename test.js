@@ -1,5 +1,5 @@
 import test from 'ava';
-import closestNumber from '.';
+import closestNumber from './index.js';
 
 test('basic numbers', t => {
   const numbers = [10, 20, 30];

@@ -1,6 +1,6 @@
 # closest-number
 
-[![CI status](https://github.com/andreruffert/closest-number/workflows/CI/badge.svg)](https://github.com/andreruffert/closest-number/actions?workflow=CI)
+[![Test status](https://github.com/andreruffert/closest-number/workflows/test/badge.svg)](https://github.com/andreruffert/closest-number/actions?workflow=test)
 [![npm version](https://img.shields.io/npm/v/closest-number.svg)](https://www.npmjs.com/package/closest-number)
 [![npm](https://img.shields.io/npm/dm/closest-number?logo=npm)](https://www.npmjs.com/package/closest-number)
 
@@ -15,7 +15,7 @@ $ npm i closest-number
 ## Usage
 
 ```js
-const closestNumber = require('closest-number');
+import closestNumber from 'closest-number';
 
 closestNumber([10, 20, 30], 12);
 // => 10

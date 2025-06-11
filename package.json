@@ -8,25 +8,27 @@
     "type": "git",
     "url": "git+https://github.com/andreruffert/closest-number.git"
   },
-  "main": "index.js",
+  "type": "module",
+  "exports": "./index.js",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "test": "ava"
   },
   "files": [
     "index.js"
   ],
-  "ava": {
-    "require": [
-      "esm"
-    ]
-  },
   "keywords": [
     "array",
     "closest",
     "number"
   ],
   "devDependencies": {
-    "ava": "^3.5.1",
-    "esm": "^3.2.25"
+    "ava": "6.4.0"
+  },
+  "volta": {
+    "node": "22.13.1",
+    "npm": "11.1.0"
   }
 }
