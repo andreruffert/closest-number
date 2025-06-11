@@ -1,6 +1,6 @@
 # closest-number
 
-[![Test status](https://github.com/andreruffert/closest-number/workflows/test/badge.svg)](https://github.com/andreruffert/closest-number/actions?workflow=test)
+[![Test status](https://github.com/andreruffert/closest-number/actions/workflows/test.yml/badge.svg)](https://github.com/andreruffert/closest-number/actions/workflows/test.yml)
 [![npm version](https://img.shields.io/npm/v/closest-number.svg)](https://www.npmjs.com/package/closest-number)
 [![npm](https://img.shields.io/npm/dm/closest-number?logo=npm)](https://www.npmjs.com/package/closest-number)
 
