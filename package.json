@@ -25,7 +25,7 @@
     "number"
   ],
   "devDependencies": {
-    "ava": "6.4.0"
+    "ava": "6.4.1"
   },
   "volta": {
     "node": "22.13.1",
